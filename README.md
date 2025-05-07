@@ -1,50 +1,57 @@
 # 🌦️ Rain Prediction Using Australian Weather Data
 
-This project uses machine learning models to predict whether it will rain tomorrow in Australia based on weather observations such as temperature, humidity, wind speed, pressure, and more.
+This project is the **final project submission for the IBM AI Engineering Professional Certificate**  
+(Machine Learning with Python Course on Coursera).
 
 ## 📁 Project Overview
 
-- **Dataset**: Historical weather data from various Australian locations  
+- **Dataset**: Historical weather data from multiple locations in Australia  
 - **Target Variable**: `RainTomorrow` (Yes/No)  
-- **Goal**: Build a classification model to predict if it will rain the next day  
+- **Objective**: Build and evaluate machine learning models to predict whether it will rain the next day
 
 ## 🧠 Models Used
 
 - Random Forest Classifier  
 - Logistic Regression  
-- Pipeline with preprocessing (numeric + categorical)  
-- GridSearchCV for hyperparameter tuning  
+- Scikit-learn Pipeline for preprocessing  
+- GridSearchCV for hyperparameter tuning
 
 ## 📊 Evaluation Metrics
 
 - Accuracy  
 - Precision, Recall, F1-Score  
 - Confusion Matrix  
-- Feature Importance
+- Feature Importance Plot
 
 ## ✅ Key Results
 
 - **Random Forest Accuracy**: 84%  
 - **Logistic Regression Accuracy**: 83%  
-- Logistic Regression Recall for “Yes” (True Positive Rate): **51%**
+- **True Positive Rate (Recall) for 'Yes' (Rain Tomorrow)** using Logistic Regression: **51%**
 
-## 🔧 Technologies
+## 🔧 Technologies & Libraries
 
-- Python, Pandas, NumPy  
-- Scikit-learn (Pipeline, GridSearchCV, Classifiers)  
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
 - Matplotlib, Seaborn  
 
-## 📌 How to Run
+## 📝 How to Run
 
 1. Clone this repository  
-2. Open `FinalProject_AUSWeather.ipynb` in Jupyter or VS Code  
-3. Run the notebook cells sequentially  
+2. Open `FinalProject_AUSWeather.ipynb` in Jupyter Notebook or VS Code  
+3. Run all cells in order to reproduce results
 
-## 📎 Note
+## 📌 Notes
 
-This model can be improved with further feature engineering, SMOTE for class imbalance, and advanced models (e.g., XGBoost).
+- Dataset includes both numeric and categorical features  
+- A custom preprocessing pipeline handles encoding and scaling  
+- Potential improvements include using SMOTE for balancing and exploring advanced models like XGBoost
+
+## 🎓 Certificate Context
+
+This project was completed as part of the **IBM AI Engineering Certificate** (Machine Learning with Python course) offered on **Coursera**.
 
 ## 📬 Contact
 
-For questions or feedback, feel free to open an issue or message me directly.
-
+Feel free to open an issue or reach out via GitHub for feedback or questions.
